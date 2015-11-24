@@ -16,7 +16,7 @@ Why use Grunt? In one word: automation. The less work you have to do when perfor
 
 The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze.
 
-{% include image_caption.html imageurl="{{ site.url }}/media/gruntjs-1.jpg" title="GruntJS" description="Grunt is built on Node.js, and it’s available as a package via the Node package manager (npm)." %}
+{% include image_caption.html imageurl="/media/gruntjs-1.jpg" title="GruntJS" description="Grunt is built on Node.js, and it’s available as a package via the Node package manager (npm)." %}
 
 ## Installing the CLI
 

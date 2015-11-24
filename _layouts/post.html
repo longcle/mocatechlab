@@ -10,7 +10,7 @@ layout: default
 </div>
 
 <div class="profile {% if page.featured == true %} featured {% endif %}">
-    {% if site.author_image != "" %}<img src="{{ site.url }}{{ site.author_image }}" class="profileimage" alt="user">{% endif %}
+    {% if site.author_image != "" %}<img src="{{ site.author_image }}" class="profileimage" alt="user">{% endif %}
     <h4>{{ site.author_name }}</h4>
     <ul>
     	{% if site.twitter_url != '' %}
@@ -32,7 +32,7 @@ layout: default
 </div>
 
 <div id="cover" class="cover {% if page.featured == true %} featured {% endif %}">
-    <div class="background" style="background-image:url('{{ site.url }}{{ page.banner_image }}');"></div>
+    <div class="background" style="background-image:url('{{ page.banner_image }}');"></div>
     <header class="wrapper">
         <h2>
         	{% for category in page.categories %}
@@ -77,7 +77,7 @@ layout: default
         </footer>
 
         <div class="postprofile">
-            <img src="{{ site.url }}{{ site.author_image }}" class="author" alt="user">
+            <img src="{{ site.author_image }}" class="author" alt="user">
             <div class="info">
                 <h4>{{ site.author_name }}</h4>
                 <a href="{{ site.author_url }}">{{ site.author_url }}</a>
