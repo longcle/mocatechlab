@@ -13,10 +13,10 @@ paginate: 					5
 
 
 # Author Settings
-author_name: 				"Harvey Specter"
-author_url: 				"http://google.com"
-author_bio: 				"Harvey Specter has built a career and reputation by breaking the rules. Harvey's shoot-from-the-hip style has made him an effective lawyer and a slick character."
-author_email: 				"support@ecko.me"
+author_name: 				"Tien Phan"
+author_url: 				"@tienphan"
+author_bio: 				"A system mastermind who loves researching & implementing best practices to our infrastructure."
+author_email: 				"tien.phan@moca.vn"
 author_image: 				"/assets/img/authorimage.jpg"
 
 
